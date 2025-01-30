@@ -51,6 +51,7 @@ body {
 .navi .search-bar input {
     padding: 5px;
     border-radius: 5px;
+    border: 1px solid #ccc;
 }
 h1 {
     text-align: center;
@@ -64,6 +65,7 @@ h1 {
 }
 .vertical-layout {
     display: flex;
+    flex-direction: column;
     gap: 20px;
     padding: 20px;
 }
