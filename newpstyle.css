@@ -72,6 +72,7 @@ h1 {
 .vertical-layout {
     display: flex;
     flex-direction: column;
+    justify-contest:space-between;
     gap: 20px;
     padding: 20px;
 }
