@@ -47,7 +47,7 @@ body {
 }
 
 .navi a:hover, a.active {
-    color: #ff4500;
+    color: blue;
 }
 
 .navi .search-bar input {
