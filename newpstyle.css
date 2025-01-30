@@ -65,7 +65,6 @@ h1 {
 }
 .vertical-layout {
     display: flex;
-    flex-direction: column;
     gap: 20px;
     padding: 20px;
 }
