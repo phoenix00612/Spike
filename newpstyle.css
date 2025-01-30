@@ -1,10 +1,12 @@
-
+/* General Styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
 }
+
+/* Navigation Bar */
 .navi {
     background-color: black;
     padding: 10px 20px;
@@ -45,7 +47,7 @@ body {
 }
 
 .navi a:hover, a.active {
-    color: blue;
+    color: #ff4500;
 }
 
 .navi .search-bar input {
@@ -53,6 +55,8 @@ body {
     border-radius: 5px;
     border: 1px solid #ccc;
 }
+
+/* Hero Section */
 h1 {
     text-align: center;
     margin: 20px;
@@ -63,6 +67,8 @@ h1 {
     color: white;
     font-size: 50px;
 }
+
+/* Vertical Layout Section */
 .vertical-layout {
     display: flex;
     flex-direction: column;
@@ -73,15 +79,18 @@ h1 {
 .vertical-item {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 20px;
     background-color: #fff;
     border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .vertical-item:hover {
     transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .vertical-item img {
@@ -122,6 +131,8 @@ h1 {
 .btn-secondary:hover {
     background-color: #555;
 }
+
+/* Footer */
 .footer {
     background-color: black;
     color: white;
@@ -139,6 +150,8 @@ h1 {
     width: 24px;
     height: 24px;
 }
+
+/* Responsive Design */
 @media (max-width: 768px) {
     .navi ul {
         justify-content: center;
